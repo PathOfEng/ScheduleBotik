@@ -3,7 +3,7 @@ name: Build and Push to Docker Hub
 # Запускать, когда вы делаете push в ветку main
 on:
   push:
-    branches: [ "main" ]
+    branches: [ "master" ]
 
 jobs:
   build-and-push:
