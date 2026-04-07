@@ -1,0 +1,20 @@
+{
+  "version": 2,
+  "dgSpecHash": "G6D5Q0TxUF4=",
+  "success": true,
+  "projectFilePath": "C:\\Users\\shuna\\OneDrive\\Рабочий стол\\ScheduleBotik\\ScheduleBotik.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\shuna\\.nuget\\packages\\exceldatareader\\3.8.0\\exceldatareader.3.8.0.nupkg.sha512",
+    "C:\\Users\\shuna\\.nuget\\packages\\exceldatareader.dataset\\3.8.0\\exceldatareader.dataset.3.8.0.nupkg.sha512",
+    "C:\\Users\\shuna\\.nuget\\packages\\htmlagilitypack\\1.12.4\\htmlagilitypack.1.12.4.nupkg.sha512",
+    "C:\\Users\\shuna\\.nuget\\packages\\microsoft.extensions.configuration.abstractions\\8.0.0\\microsoft.extensions.configuration.abstractions.8.0.0.nupkg.sha512",
+    "C:\\Users\\shuna\\.nuget\\packages\\microsoft.extensions.configuration.binder\\8.0.0\\microsoft.extensions.configuration.binder.8.0.0.nupkg.sha512",
+    "C:\\Users\\shuna\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\8.0.0\\microsoft.extensions.dependencyinjection.abstractions.8.0.0.nupkg.sha512",
+    "C:\\Users\\shuna\\.nuget\\packages\\microsoft.extensions.options\\8.0.0\\microsoft.extensions.options.8.0.0.nupkg.sha512",
+    "C:\\Users\\shuna\\.nuget\\packages\\microsoft.extensions.options.configurationextensions\\8.0.0\\microsoft.extensions.options.configurationextensions.8.0.0.nupkg.sha512",
+    "C:\\Users\\shuna\\.nuget\\packages\\microsoft.extensions.primitives\\8.0.0\\microsoft.extensions.primitives.8.0.0.nupkg.sha512",
+    "C:\\Users\\shuna\\.nuget\\packages\\system.text.json\\8.0.5\\system.text.json.8.0.5.nupkg.sha512",
+    "C:\\Users\\shuna\\.nuget\\packages\\telegram.bot\\22.9.5.2\\telegram.bot.22.9.5.2.nupkg.sha512"
+  ],
+  "logs": []
+}

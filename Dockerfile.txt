@@ -1,0 +1,19 @@
+﻿# 1. Сборка приложения (SDK)
+FROM ://microsoft.com AS build
+WORKDIR /app
+
+# Копируем файл проекта и скачиваем зависимости
+COPY *.csproj ./
+RUN dotnet restore
+
+# Копируем всё остальное и собираем Release-версию
+COPY . ./
+RUN dotnet publish -c Release -o out
+
+# 2. Запуск приложения (Runtime)
+FROM ://microsoft.com
+WORKDIR /app
+COPY --from=build /app/out .
+
+# Запуск бота (ScheduleBotik.dll)
+ENTRYPOINT ["dotnet", "ScheduleBotik.dll"]
