@@ -44,7 +44,8 @@ internal class Program
     };
     private static void Main(string[] args)
     {
-        Host ScheduleBot = new Host("8656287848:AAG_X9aRibkczuOqSS61C5x0YfzWxNJwg3w");
+        string token = Environment.GetEnvironmentVariable("TELEGRAM_TOKEN");
+        Host ScheduleBot = new Host(token);
         ScheduleBot.Start();
         ScheduleBot.OnMessage += DelegateMessage;
         Console.ReadLine();
